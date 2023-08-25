@@ -1,4 +1,3 @@
-
 # Cookie Click
 Based on the online game "Cookie Clicker," Cookie Click is an interactive cookie-themed clicking game.
 The player simply clicks on the cookie to increase their score.
