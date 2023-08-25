@@ -75,7 +75,9 @@ public class Controller extends Application {
 
     private void setAllButtons() {
         cookieButton.setOnAction( e -> increaseScore());
+        cookiesButton.setBackground(Background.fill(Color.PALETURQUOISE));
         resetButton.setOnAction(e -> resetScore());
+        resetButton.setBackground(Background.fill(Color.LIGHTBLUE));
     }
 
     private void increaseScore() {
