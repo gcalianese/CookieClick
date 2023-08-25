@@ -92,7 +92,6 @@ public class Controller extends Application {
     @Override
     public void start(Stage stage) {
         try {
-            this.primaryStage = stage;
             primaryStage.setHeight(500);
             primaryStage.setWidth(500);
             primaryStage.setScene(this.view.load());

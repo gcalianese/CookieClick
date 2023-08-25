@@ -1,1 +1,1 @@
-src/main/resources/cookie1.png
+src/main/resources/cookie5.jpg
