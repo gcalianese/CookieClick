@@ -17,15 +17,15 @@ import java.io.IOException;
  */
 public class CookiesButtonHandler implements EventHandler {
     private Stage primaryStage;
-    private MyButton cookie1Button = new MyButton("src/main/resources/cookie1.png");
-    private MyButton cookie2Button = new MyButton("src/main/resources/cookie2.jpg");
-    private MyButton cookie3Button = new MyButton("src/main/resources/cookie3.jpg");
-    private MyButton cookie4Button = new MyButton("src/main/resources/cookie4.jpg");
-    private MyButton cookie5Button = new MyButton("src/main/resources/cookie5.jpg");
-    private MyButton cookie6Button = new MyButton("src/main/resources/cookie6.jpg");
-    private MyButton cookie7Button = new MyButton("src/main/resources/cookie7.jpg");
-    private MyButton cookie8Button = new MyButton("src/main/resources/cookie8.jpg");
-    private MyButton cookie9Button = new MyButton("src/main/resources/cookie9.jpg");
+    private MyButton cookie1Button = new MyButton(1);
+    private MyButton cookie2Button = new MyButton(2);
+    private MyButton cookie3Button = new MyButton(3);
+    private MyButton cookie4Button = new MyButton(4);
+    private MyButton cookie5Button = new MyButton(5);
+    private MyButton cookie6Button = new MyButton(6);
+    private MyButton cookie7Button = new MyButton(7);
+    private MyButton cookie8Button = new MyButton(8);
+    private MyButton cookie9Button = new MyButton(9);
     private String selectedCookie;
     private Popup popup;
     private Controller controller;

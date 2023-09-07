@@ -12,15 +12,17 @@ import java.io.File;
  */
 public class MyButton extends Button {
     private String img;
+    private int num;
 
     /**
      * instantiates a MyButton with its graphic set to the image
      * at the given file path
-     * @param img the file path to the image to be its graphic
+     * @param num the number of the cookie represented by this MyButton
      */
-    public MyButton(String img) {
-        this.img = img;
+    public MyButton(int num) {
+        this.img = "src/main/resources/cookie" + num;
         setMyGraphic();
+        this.num = num;
     }
 
     /**
@@ -41,5 +43,13 @@ public class MyButton extends Button {
      */
     public String getImg() {
         return img;
+    }
+
+    /**
+     * getter for the MyButton's num
+     * @return this MyButton's num
+     */
+    public int getNum() {
+        return this.num;
     }
 }
